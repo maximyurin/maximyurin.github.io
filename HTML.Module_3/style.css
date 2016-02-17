@@ -20,9 +20,6 @@ p {
   font-family: OpenSans-Regular;
   font-size: 13,33px;
 }
-a {
-  text-decoration: none;
-  }
 .box-maket {
   width: 1060px;
   height: 950px;
@@ -42,17 +39,28 @@ a {
 .topmenu {
   width: 965px;
   height: 40px;
-  margin-left: 45px;
-  margin-right: 45px;
-  }
-.box1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px
+}
+.topmenu a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-left: 25px;
+}
+.topmenu a:hover {
+    background-color: #3a3a3a;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+ .maintop {
+  display: block;
   width: 145px;
   height: 40px;
   background-color: #515151;
-  margin-top: 40px;
   float: left;
   box-sizing: border-box;
-  padding-left: 25px;
   line-height: 40px;
   background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
@@ -60,43 +68,41 @@ a {
   text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
   font-size: 14.667px;
   }
-.box2 {
-  width: 100px;
+ .goodstop {
+  display: block;
+  width: 125px;
   height: 40px;
-  background-color: #3a3a3a;
-  margin-top: 40px;
   float: left;
-  box-sizing: border-box;
-  padding-left: 25px;
-  line-height: 40px;
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  font-size: 14.667px;
-  }
-.box3 {
-  width: 160px;
-  height: 40px;
   background-color: #515151;
-  margin-top: 40px;
-  float: left;
   box-sizing: border-box;
-  padding-left: 65px;
   line-height: 40px;
   background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
   text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
   font-size: 14.667px;
-}
-.box4 {
-  width: 560px;
+  }
+ .aboutustop {
+  display: block;
+  width: 205px;
   height: 40px;
   background-color: #515151;
-  margin-top: 40px;
   float: left;
   box-sizing: border-box;
-  padding-left: 25px;
+  line-height: 40px;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
+  font-size: 14.667px;
+ }
+ .contactstop {
+  display: block;
+  width: 490px;
+  height: 40px;
+  background-color: #515151;
+  float: left;
+  box-sizing: border-box;
   line-height: 40px;
   background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
@@ -108,75 +114,81 @@ a {
   width: 240px;
   height: 240px;
   margin-left: 45px;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 775px;
   color: #656363;
 }
-.box5 {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
+.leftmenu a {
+  color: #656363;
+  display: block;
   padding-left: 25px;
-  line-height: 40px;
-  font-size: 13.333px;
+  text-decoration: none;
 }
-.box6 {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
-  padding-left: 25px;
-  line-height: 40px;
-  font-size: 13.333px;
-}
-.box7 {
-  width: 240px;
-  height: 40px;
+.leftmenu a:hover {
   background-color: #f9f9f9;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
+  color: #2c2c2c;
   padding-left: 40px;
-  line-height: 40px;
-  font-size: 13.333px;
 }
-.box8 {
+ .nout {
+  color: #656363;
   width: 240px;
   height: 40px;
   background-color: #ffffff;
   border: 1px solid #c8c8c8;
   border-bottom: none;
   box-sizing: border-box;
-  padding-left: 25px;
   line-height: 40px;
   font-size: 13.333px;
-}
-.box9 {
+ }
+ .tablet {
   width: 240px;
   height: 40px;
   background-color: #ffffff;
   border: 1px solid #c8c8c8;
   border-bottom: none;
   box-sizing: border-box;
-  padding-left: 25px;
   line-height: 40px;
   font-size: 13.333px;
-}
-.box10 {
+ }
+ .phone {
   width: 240px;
   height: 40px;
   background-color: #ffffff;
   border: 1px solid #c8c8c8;
+  border-bottom: none;
   box-sizing: border-box;
-  padding-left: 25px;
   line-height: 40px;
   font-size: 13.333px;
-}
+ }
+ .tv {
+  width: 240px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 13.333px;
+ }
+ .bt {
+  width: 240px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 13.333px;
+ }
+ .auto {
+  width: 240px;
+  height: 42px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 13.333px;
+ }
 .photo {
   width: 675px;
   height: 400px;
@@ -203,10 +215,18 @@ a {
 .footer {
   width: 965px;
   height: 40px;
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.box11 {
+ .footer a {
+ display: block;
+ text-decoration: none;
+ color: #2c2c2c;
+ }
+ .footer a:hover {
+ text-decoration: underline;
+ }
+ .mainfot {
   font-size: 13.333px;
   width: 145px;
   height: 40px;
@@ -216,8 +236,8 @@ a {
   box-sizing: border-box;
   padding-left: 25px;
   line-height: 40px;
-}
-.box12 {
+ }
+ .goodsfot {
   font-size: 13.333px;
   width: 100px;
   height: 40px;
@@ -227,9 +247,8 @@ a {
   box-sizing: border-box;
   padding-left: 25px;
   line-height: 40px;
-  text-decoration: underline;
-}
-.box13 {
+ }
+ .aboutusfot {
   font-size: 13.333px;
   width: 160px;
   height: 40px;
@@ -239,8 +258,8 @@ a {
   box-sizing: border-box;
   padding-left: 75px;
   line-height: 40px;
-}
-.box14 {
+ }
+ .contactsfot {
   font-size: 13.333px;
   width: 200px;
   height: 40px;
@@ -250,8 +269,8 @@ a {
   box-sizing: border-box;
   padding-left: 55px;
   line-height: 40px;
-}
-.box15 {
+ }
+ .info {
   font-size: 13.333px;
   width: 360px;
   height: 40px;
@@ -261,4 +280,4 @@ a {
   box-sizing: border-box;
   padding-left: 170px;
   line-height: 40px;
-}
+ }

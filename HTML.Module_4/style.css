@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  background-image: url(img/background.png)
+}
+.maket {
+  position: absolute;
+  right: 128px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  height: 985px;
+}
+.header {
+  background-color: white;
+  width: 1000px;
+  height: 173px;
+}
+.logo {
+ position: absolute;
+ left: 30px;
+ top: 10px;
+ width: 283px;
+ height: 164px;
+ background: transparent;
+}
+.asia {
+  position: absolute;
+  top: 90px;
+  left: -37px;
+  font-size: 40px;
+  font-family: Tahoma;
+  color: #128aa7;
+  -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+}
+.contacts {
+  width: 150px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.contacts li {
+  list-style: none;
+  font-family: Tahoma;
+  font-size: 12px;
+  line-height: 19px;
+}
+.contacts a {
+  color: #5fa5bb;
+  text-decoration: none;
+}
+.flags {
+  width: 338px;
+  height: 56px;
+  position: absolute;
+  left: 640px;
+  top: 107px;
+}
+.india, .nepal, .tibet, .butan, .srilanka, .maldives {
+  width: 56px;
+  height: 53px;
+  float: left;
+  padding-left: 0px;
+}
+.flags a {
+  font-size: 10px;
+  font-family: Tahoma;
+  text-align: center;
+  color: #128aa7;
+  display: block;
+  width: 100%;
+}
+.logophoto {
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+  width: 1000px;
+  height: 237px;
+  background: url(img/photo.png)
+}
+.navigation {
+  width: 1000px;
+  height: 28px;
+  background-color: #343434;
+  border-top: 1px solid #cacbcb;
+  position: relative;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  line-height: 28px;
+  border-bottom: 1px solid #000000;
+}
+.navigation ul {
+  list-style: none;
+  position: relative;
+  left: 40px;
+}
+.navigation ul li {
+  float: left;
+  height: 28px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  background-color: #343434;
+}
+.navigation ul li ul {
+  display: none;
+  position: absolute;
+  left: 18px;
+  top: 28px;
+  margin: 1px;
+  width: 100%;
+  background-color: #343434;
+}
+.navigation ul li ul li {
+  float: none;
+  display: block;
+  background: none;
+}
+.navigation ul li:hover {
+  background-color: #108eae;
+}
+.navigation ul li:hover ul {
+  display: block;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.navigation ul li a {
+  text-decoration: none;
+  font-family: Tahoma;
+  color: white;
+  font-size: 14px;
+  height: 28px;
+  padding: 30px;
+}
+.navigation ul li ul li a {
+  text-decoration: none;
+  font-family: Tahoma;
+  color: white;
+  font-size: 14px;
+  height: 28px;
+  padding: 11px;
+}
+.navigation img{
+    padding: 0px;
+    transform: rotate(-90deg);
+}
+.navigation li:hover img{
+    transform: rotate(0deg);
+}
+.container {
+  width: 1000px;
+  background: url(img/container.png) repeat-y;
+  clear: both;
+}
+.sidebar {
+  background-color: #edeef0;
+  float: left;
+  width: 210px;
+  height: 545px;
+  border-right: 1px solid #c7cacf;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 14px;
+  line-height: 25px;
+  color: #424c43;
+  border-left: 1px solid #c7cacf;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.sidebar p{
+  padding-right: 15px;
+}
+.content {
+  background-color: white;
+  width: 580px;
+  float: left;
+  height: 545px;
+}
+.m1 {
+  float: right;
+  padding: 10px;
+}
+.content h2 {
+  font-family: Tahoma;
+  text-align: center;
+  padding: 10px;
+  color: #424c43;
+  font-size: 20px;
+}
+.content p {
+  padding: 10px;
+  font-family: Tahoma;
+  text-align: justify;
+  color: #424c43;
+  font-size: 15px;
+}
+.m2 {
+  float: left;
+  padding: 10px;
+}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.news {
+  background-color: #edeef0;
+  float: left;
+  width: 210px;
+  height: 545px;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 14px;
+  line-height: 25px;
+  color: #424c43;
+  border-left: 1px solid #c7cacf;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.news p {
+  padding-right: 15px;
+}
+.footer {
+  background-color: transparent;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 14px;
+  color: #b7cddb;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
