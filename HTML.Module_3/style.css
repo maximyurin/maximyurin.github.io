@@ -41,74 +41,50 @@ p {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px
+  margin-top: 40px;
+}
+.topmenu {
+  background-color: #535252;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+}
+.topmenu ul {
+  list-style: none;
+}
+.topmenu li {
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  height: 40px;
+  background-color: #535252;
+  line-height: 40px;
+  font-family: OpenSans-Regular;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
+  font-size: 14.667px;
 }
 .topmenu a {
-    text-decoration: none;
-    display: block;
-    color: #ffffff;
-    padding-left: 25px;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: 100%;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  margin-right: 40px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 .topmenu a:hover {
-    background-color: #3a3a3a;
-    border-left: 1px solid #838383;
-    border-right: 1px solid #838383;
-}
- .maintop {
-  display: block;
-  width: 145px;
-  height: 40px;
-  background-color: #515151;
-  float: left;
+  display: inline-block;
   box-sizing: border-box;
-  line-height: 40px;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  font-size: 14.667px;
-  }
- .goodstop {
-  display: block;
-  width: 125px;
-  height: 40px;
-  float: left;
-  background-color: #515151;
-  box-sizing: border-box;
-  line-height: 40px;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  font-size: 14.667px;
-  }
- .aboutustop {
-  display: block;
-  width: 205px;
-  height: 40px;
-  background-color: #515151;
-  float: left;
-  box-sizing: border-box;
-  line-height: 40px;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  font-size: 14.667px;
- }
- .contactstop {
-  display: block;
-  width: 490px;
-  height: 40px;
-  background-color: #515151;
-  float: left;
-  box-sizing: border-box;
-  line-height: 40px;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  font-size: 14.667px;
+  background-color: #3a3a3a;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
 }
 .leftmenu {
   width: 240px;
@@ -129,66 +105,18 @@ p {
   color: #2c2c2c;
   padding-left: 40px;
 }
- .nout {
-  color: #656363;
+.leftmenu ul {
+  list-style: none;
+}
+.leftmenu li {
+  display: block;
   width: 240px;
   height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
   line-height: 40px;
   font-size: 13.333px;
- }
- .tablet {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
   border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
-  line-height: 40px;
-  font-size: 13.333px;
- }
- .phone {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
-  line-height: 40px;
-  font-size: 13.333px;
- }
- .tv {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
-  line-height: 40px;
-  font-size: 13.333px;
- }
- .bt {
-  width: 240px;
-  height: 40px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  border-bottom: none;
-  box-sizing: border-box;
-  line-height: 40px;
-  font-size: 13.333px;
- }
- .auto {
-  width: 240px;
-  height: 42px;
-  background-color: #ffffff;
-  border: 1px solid #c8c8c8;
-  box-sizing: border-box;
-  line-height: 40px;
-  font-size: 13.333px;
- }
+  border-bottom-width: 0px;
+}
 .photo {
   width: 675px;
   height: 400px;
@@ -217,8 +145,21 @@ p {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
+  background: #e1e1e1;
+  margin-top: 400px;
 }
- .footer a {
+.footer ul {
+  list-style: none;
+}
+.footer li {
+  display: block;
+  float: left;
+  line-height: 40px;
+  font-size: 13.333px;
+  padding-left: 25px;
+  margin-right: 67px;
+}
+.footer a {
  display: block;
  text-decoration: none;
  color: #2c2c2c;
@@ -226,58 +167,8 @@ p {
  .footer a:hover {
  text-decoration: underline;
  }
- .mainfot {
-  font-size: 13.333px;
-  width: 145px;
-  height: 40px;
-  background-color: #e1e1e1;
-  margin-top: 62px;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 25px;
-  line-height: 40px;
- }
- .goodsfot {
-  font-size: 13.333px;
-  width: 100px;
-  height: 40px;
-  background-color: #e1e1e1;
-  margin-top: 62px;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 25px;
-  line-height: 40px;
- }
- .aboutusfot {
-  font-size: 13.333px;
-  width: 160px;
-  height: 40px;
-  background-color: #e1e1e1;
-  margin-top: 62px;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 75px;
-  line-height: 40px;
- }
- .contactsfot {
-  font-size: 13.333px;
-  width: 200px;
-  height: 40px;
-  background-color: #e1e1e1;
-  margin-top: 62px;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 55px;
-  line-height: 40px;
- }
- .info {
-  font-size: 13.333px;
-  width: 360px;
-  height: 40px;
-  background-color: #e1e1e1;
-  margin-top: 62px;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 170px;
-  line-height: 40px;
- }
+ .footer span {
+   line-height: 40px;
+   font-size: 13.333px;
+   padding-left: 210px;
+}

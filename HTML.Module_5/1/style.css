@@ -1,0 +1,266 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eeeeee;
+}
+.page {
+  width: 1215px;
+  height: 1064px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(fonts/helveticaneuecyr-thin.ttf);
+   }
+.header {
+  width: 1215px;
+  height: 35px;
+  background: rgb(7, 76, 137);
+  background-image: url(img/noise.png);
+}
+.header:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.headmenu ul {
+  display: block;
+  list-style: none;
+  line-height: 35px;
+  padding-left: 470px;
+}
+.headmenu ul li {
+  display: block;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headmenu ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Helvetica;
+  color: rgb(96, 181, 237);
+}
+.headmenu li:hover, a:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+}
+.headmenu a:hover {
+color: rgb(255, 255, 255);
+}
+.layer36 {
+  float: left;
+  height: 32px;
+  width: 1px;
+  text-align: center;
+  line-height: 35px;
+  padding-left: 12px;
+  padding-top: 2px;
+}
+.flag {
+  float: left;
+  width: 20x;
+  height: 22px;
+  padding-left: 20px;
+  padding-top: 6px;
+}
+.flag a {
+  display: block;
+  height: 25px;
+}
+.flag a:hover {
+  background: transparent;
+}
+.rightmenu ul {
+  list-style: none;
+}
+.rightmenu ul li a {
+  display: block;
+  float: left;
+  list-style: none;
+  line-height: 35px;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 13px;
+  font-family: Helvetica;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.rightmenu li:hover, a:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+}
+.container {
+  display: block;
+  background-image: url(img/background.png);
+  width: 1215px;
+  height: 1028px;
+  background-repeat: no-repeat;
+  display: table;
+}
+.centralbox {
+  width: 560px;
+  height: 612px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.headbox {
+  background-color: rgba(0, 0, 0, 0.631);
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.headbox p {
+    font-family: Helvetica;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+.forms {
+  background-color: rgba(0, 0, 0, 0.631);
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 550px;
+  margin-top: 2px;
+}
+.face {
+  padding-top: 35px;
+  line-height: 39px;
+}
+.face a:hover {
+  background: transparent;
+}
+.ou {
+  width: 276px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 35px;
+}
+.hl1, .hl2 {
+  margin-top: 25px;
+  display: block;
+  float: left;
+  width: 120px;
+  height: 1px;
+  border-bottom: 1px solid #000000;
+}
+.hl2 {
+  float: right;
+}
+.ou1 {
+  float: left;
+  width: 28px;
+  height: 35px;
+  color: rgb(153, 153, 153);
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+.ou, .face, .first, .last, .mail, .pass, .passc, .check, .sub {
+text-align: center;
+}
+.first {
+  padding-top: 25px;
+}
+.last {
+  padding-top: 20px;
+}
+.mail {
+  padding-top: 20px;
+}
+.pass {
+  padding-top: 20px;
+}
+.passc {
+  padding-top: 20px;
+}
+.check {
+  padding-top: 20px;
+  font-size: 11px;
+  font-family: Helvetica;
+  color: rgb(204, 204, 204);
+  width: 276px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+input[type="checkbox"] {
+    vertical-align: top;
+}
+span {
+  padding-left: 3px;
+}
+.sub {
+  width: 155px;
+  height: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 41px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  height: 35px;
+  width: 276px;
+  border: none;
+  font-family: Helvetica;
+  outline: none;
+  border-bottom: 1px solid #484948;
+  background: black;
+  color: white;
+  font-size: 14px;
+  line-height: 35px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover {
+  background: #1b5288;
+  box-shadow: 0 0 9px;
+  rgba(74, 136, 176, 0.77);
+  border: 1px solid #689bcc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  width: 155px;
+  height: 41px;
+  background: transparent;
+  border: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: rgb(66, 153, 210);
+  border-radius: 3px;
+}
+input[type="submit"], .gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top, #50aedb, #2e7ac4);
+  padding: 10px;
+}
+input[type="submit"]:hover, .gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+  padding: 10px;
+  border: 1px solid #50aedb;
+}
+.footer {
+  padding-top: 15px;
+}
+.footer p {
+  font-size: 11px;
+  font-family: Helvetica;
+  color: rgb(204, 204, 204);
+  text-align: center;
+}
