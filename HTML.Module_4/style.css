@@ -19,17 +19,17 @@ body {
   height: 173px;
 }
 .logo {
- position: absolute;
- left: 155px;
- top: 10px;
- width: 283px;
- height: 164px;
- background: transparent;
+  position: absolute;
+  left: 160px;
+  top: 9px;
+  width: 283px;
+  height: 164px;
+  background: transparent;
 }
 .asia {
   position: absolute;
-  top: 90px;
-  left: 87px;
+  top: 87px;
+  left: 93px;
   font-size: 40px;
   font-family: Tahoma;
   color: #128aa7;
@@ -42,14 +42,15 @@ body {
   height: 100px;
   float: right;
   position: absolute;
-  right: 130px;
-  top: 10px;
+  right: 139px;
+  top: 3px;
 }
 .contacts li {
   list-style: none;
   font-family: Tahoma;
   font-size: 12px;
   line-height: 19px;
+  letter-spacing: 0px;
 }
 .contacts a {
   color: #5fa5bb;
@@ -59,7 +60,7 @@ body {
   width: 338px;
   height: 56px;
   position: absolute;
-  left: 780px;
+  left: 766px;
   top: 107px;
 }
 .india, .nepal, .tibet, .butan, .srilanka, .maldives {
@@ -69,7 +70,7 @@ body {
   padding-left: 0px;
 }
 .flags a {
-  font-size: 10px;
+  font-size: 9px;
   font-family: Tahoma;
   text-align: center;
   color: #128aa7;
@@ -109,9 +110,9 @@ body {
 .navigation ul li ul {
   display: none;
   position: absolute;
-  left: 18px;
+  left: 0px;
   top: 28px;
-  margin: 1px;
+  margin: 0px;
   width: 100%;
   background-color: #343434;
 }
@@ -144,11 +145,11 @@ body {
   padding: 11px;
 }
 .navigation img{
-    padding: 0px;
-    transform: rotate(-90deg);
+  padding: 0px;
+  transform: rotate(-90deg);
 }
 .navigation li:hover img{
-    transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .container {
   width: 1000px;
@@ -164,14 +165,14 @@ body {
   text-align: center;
   font-family: Tahoma;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 24px;
   color: #424c43;
   border-left: 1px solid #c7cacf;
-  padding-top: 10px;
+  padding-top: 5px;
   box-sizing: border-box;
 }
 .sidebar p{
-  padding-right: 15px;
+  padding-right: 12px;
 }
 .content {
   background-color: white;
@@ -214,14 +215,18 @@ body {
   text-align: center;
   font-family: Tahoma;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 24px;
   color: #424c43;
   border-left: 1px solid #c7cacf;
-  padding-top: 10px;
+  padding-top: 5px;
   box-sizing: border-box;
 }
+.news h3 {
+  font-size: 18px;
+  font-family: Tahoma;
+}
 .news p {
-  padding-right: 15px;
+  padding-right: 13px;
 }
 .footer {
   background-color: transparent;

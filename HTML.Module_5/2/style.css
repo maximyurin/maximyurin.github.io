@@ -20,7 +20,15 @@ td, tr {
   margin: 10px;
   border: 11px solid black
 }
-.red { background-color: rgb(255, 98, 68); }
-.yellow { background-color: rgb(255, 243, 114); }
-.blue { background-color: rgb(5, 67, 127); }
-.black { background-color: rgb(24, 36, 31); }
+.red {
+  background-color: rgb(255, 98, 68);
+}
+.yellow {
+  background-color: rgb(255, 243, 114);
+}
+.blue {
+  background-color: rgb(5, 67, 127);
+}
+.black {
+  background-color: rgb(24, 36, 31);
+}

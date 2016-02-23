@@ -18,7 +18,7 @@ body {
 }
 p {
   font-family: OpenSans-Regular;
-  font-size: 13,33px;
+  font-size: 13px;
 }
 .box-maket {
   width: 1060px;
@@ -45,9 +45,9 @@ p {
 }
 .topmenu {
   background-color: #535252;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
 }
 .topmenu ul {
   list-style: none;
@@ -60,9 +60,9 @@ p {
   background-color: #535252;
   line-height: 40px;
   font-family: OpenSans-Regular;
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0, rgb(94,94,94) 100%);
   text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
   font-size: 14.667px;
 }

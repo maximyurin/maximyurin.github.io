@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/helveticaneuecyr-thin.ttf);
+}
 *{
   margin: 0;
   padding: 0;
@@ -11,10 +15,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-@font-face {
-    font-family: Helvetica;
-    src: url(fonts/helveticaneuecyr-thin.ttf);
-   }
 .header {
   width: 1215px;
   height: 35px;
@@ -22,11 +22,11 @@ body {
   background-image: url(img/noise.png);
 }
 .header:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 .headmenu ul {
   display: block;
@@ -52,7 +52,7 @@ visibility: hidden;
   background: linear-gradient(to bottom, #50aedb, #2e7ac4);
 }
 .headmenu a:hover {
-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .layer36 {
   float: left;
@@ -65,7 +65,6 @@ color: rgb(255, 255, 255);
 }
 .flag {
   float: left;
-  width: 20x;
   height: 22px;
   padding-left: 20px;
   padding-top: 6px;
@@ -122,9 +121,9 @@ color: rgb(255, 255, 255);
   text-align: center;
 }
 .headbox p {
-    font-family: Helvetica;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
   }
 .forms {
   background-color: rgba(0, 0, 0, 0.631);
@@ -170,7 +169,7 @@ color: rgb(255, 255, 255);
   margin-left: 4px;
 }
 .ou, .face, .first, .last, .mail, .pass, .passc, .check, .sub {
-text-align: center;
+  text-align: center;
 }
 .first {
   padding-top: 25px;
@@ -199,7 +198,7 @@ text-align: center;
   text-align: left;
 }
 input[type="checkbox"] {
-    vertical-align: top;
+  vertical-align: top;
 }
 span {
   padding-left: 3px;
@@ -228,7 +227,6 @@ input[type="text"], input[type="password"], input[type="email"] {
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover {
   background: #1b5288;
   box-shadow: 0 0 9px;
-  rgba(74, 136, 176, 0.77);
   border: 1px solid #689bcc;
   border-radius: 5px;
 }
