@@ -14,13 +14,14 @@ body {
   margin-right: auto;
 }
 .header {
+  position: relative;
   background-color: white;
   width: 1000px;
   height: 173px;
 }
 .logo {
   position: absolute;
-  left: 160px;
+  left: 28px;
   top: 9px;
   width: 283px;
   height: 164px;
@@ -28,8 +29,8 @@ body {
 }
 .asia {
   position: absolute;
-  top: 87px;
-  left: 93px;
+  top: 89px;
+  left: -39px;
   font-size: 40px;
   font-family: Tahoma;
   color: #128aa7;
@@ -42,8 +43,8 @@ body {
   height: 100px;
   float: right;
   position: absolute;
-  right: 139px;
-  top: 3px;
+  right: 8px;
+  top: 4px;
 }
 .contacts li {
   list-style: none;
@@ -55,13 +56,16 @@ body {
 .contacts a {
   color: #5fa5bb;
   text-decoration: none;
+  -moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+  -ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
 }
 .flags {
   width: 338px;
   height: 56px;
   position: absolute;
-  left: 766px;
-  top: 107px;
+  left: 633px;
+  top: 109px;
 }
 .india, .nepal, .tibet, .butan, .srilanka, .maldives {
   width: 56px;
