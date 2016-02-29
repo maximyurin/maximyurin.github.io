@@ -169,6 +169,7 @@ nav li:hover {
   background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
   background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
   background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  cursor: pointer;
 }
 .layer15 {
   float: left;
@@ -176,6 +177,9 @@ nav li:hover {
   height: 17px;
   margin-left: 44px;
   margin-top: 6px;
+}
+.layer15:hover {
+  background-image: url(img/layer15w.png);
 }
 .goods {
   float: left;
@@ -273,6 +277,10 @@ nav li:hover {
   box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
   margin-left: -1px;
 }
+.cat:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
 .cat img {
   float: left;
   margin-left: 2px;
@@ -318,6 +326,14 @@ nav li:hover {
   text-decoration: none;
   margin-top: 4px;
 }
+.wheel a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.wheel:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
 .wheelp {
   display: block;
   width: 182px;
@@ -329,9 +345,28 @@ nav li:hover {
   -moz-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -webkit-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -ms-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
-  line-height: 29px;
-  margin-left: 22px;
-  margin-top: -8px;
+  line-height: 28px;
+  margin-left: 28px;
+  margin-top: -6px;
+}
+.wheelp img {
+  margin-right: 4px;
+  vertical-align: baseline;
+  margin-bottom: 1px;
+}
+.wheelp a {
+  text-decoration: none;
+  display: block;
+  font-size: 14.395px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(17, 65, 101);
+  cursor: pointer;
+}
+.wheelp a:hover {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
 }
 .disc {
   float: left;
@@ -339,7 +374,7 @@ nav li:hover {
   height: 26px;
   border-radius: 12px;
   border: 1px solid rgb(121, 135, 141);
-  margin-top: -8px;
+  margin-top: -6px;
   margin-left: 1px;
 }
 .disc img {
@@ -358,6 +393,14 @@ nav li:hover {
   text-decoration: none;
   margin-top: 3px;
 }
+.disc:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
+.disc a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
 .discs {
   display: block;
   width: 182px;
@@ -369,9 +412,27 @@ nav li:hover {
   -moz-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -webkit-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -ms-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
-  line-height: 29px;
-  margin-left: 22px;
-  margin-top: -8px;
+  line-height: 28px;
+  margin-left: 28px;
+  margin-top: -6px;
+}
+.discs a {
+    text-decoration: none;
+    display: block;
+    font-size: 14.395px;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(17, 65, 101);
+}
+.discs img {
+  margin-right: 4px;
+  vertical-align: baseline;
+  margin-bottom: 1px;
+}
+.discs a:hover {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
 }
 .bolt {
   float: left;
@@ -379,7 +440,7 @@ nav li:hover {
   height: 26px;
   border-radius: 12px;
   border: 1px solid rgb(121, 135, 141);
-  margin-top: -9px;
+  margin-top: -7px;
   margin-left: 1px;
 }
 .bolt img {
@@ -398,6 +459,13 @@ nav li:hover {
   text-decoration: none;
   margin-top: 3px;
 }
+.bolt a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.bolt:hover {
+  background-color: rgb(153, 210, 252);
+}
 .bolts {
   display: block;
   width: 182px;
@@ -409,11 +477,29 @@ nav li:hover {
   -moz-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -webkit-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
   -ms-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
-  line-height: 29px;
-  margin-left: 22px;
-  margin-top: -8px;
+  line-height: 28px;
+  margin-left: 28px;
+  margin-top: -6px;
 }
-
+.bolts img {
+  margin-right: 4px;
+  vertical-align: baseline;
+  margin-bottom: 1px;
+}
+.bolts a {
+  text-decoration: none;
+  display: block;
+  font-size: 14.395px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(17, 65, 101);
+  cursor: pointer;
+}
+.bolts a:hover {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
 /*MAIN*/
 
 main {
@@ -436,6 +522,12 @@ main {
   margin-right: 10px;
   margin-top: 21px;
   margin-bottom: 20px;
+}
+.allwheels a {
+  text-decoration: none;
+}
+figcaption p:hover {
+  color: #112e44;
 }
 .allwheels img {
  padding-left: 1px;
@@ -485,6 +577,10 @@ main {
   margin-left: 7px;
   margin-top: -2px;
 }
+.brands:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
 .brands img {
   float: left;
   margin-left: 3px;
@@ -513,6 +609,7 @@ main {
   border: 1px solid rgb(121, 135, 141);
   margin-top: 15px;
   margin-left: 22px;
+  overflow: hidden;
 }
 .wheelright img {
   display: block;
@@ -530,6 +627,14 @@ main {
   text-decoration: none;
   margin-top: 3px;
 }
+.wheelright a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.wheelright:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
 .wheellist {
   font-size: 12.73px;
   font-family: "Lucida Sans Unicode";
@@ -537,6 +642,9 @@ main {
   margin-top: 3px;
   margin-left: 40px;
   line-height: 25px;
+}
+.wheellist input {
+  vertical-align: middle;
 }
 .discsright {
   width: 134px;
@@ -562,6 +670,14 @@ main {
   text-decoration: none;
   margin-top: 3px;
 }
+.discsright a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.discsright:hover {
+  background-color: rgb(153, 210, 252);
+  cursor: pointer;
+}
 .discslist {
   font-size: 12.73px;
   font-family: "Lucida Sans Unicode";
@@ -570,44 +686,58 @@ main {
   margin-left: 40px;
   line-height: 25px;
 }
-.choose {
+.discslist input {
+  vertical-align: middle;
+}
+.choose input {
   display: block;
   width: 82px;
-  height: 26px;
+  height: 28px;
   font-size: 11px;
   font-family: "Arial";
   color: rgb(229, 233, 234);
   text-align: center;
-  border-radius: 14px;
+  border-radius: 12px;
   background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
   background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
   background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
   line-height: 26px;
   margin-top: 13px;
-  margin-left: 30px;
+  margin-left: -10px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(167, 171, 174);
 }
-.choose a {
-  display: block;
-  font-size: 11px;
-  font-family: "Arial";
-  color: rgb(229, 233, 234);
-  text-align: center;
-  text-decoration: none;
+.choose input:hover {
+  cursor: pointer;
+  background: rgb(38, 123, 186);
+  border: 1px solid #206ca5;
+
 }
 
 /*FOOTER*/
 
 .footerlogo {
-text-align: center;
+  width: 676px;
+  height: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
 }
-.footerlogo img {
-  margin-top: 38px;
+.footerlogo a {
+  height: 35px;
+  display: inline-block;
+  list-style: none;
+  line-height: 27px;
+  vertical-align: top;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 5px;
+  box-sizing: border-box;
 }
 .foot {
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   text-align: center;
   display: block;
@@ -648,6 +778,7 @@ text-align: center;
 }
 .foot-menu a:hover{
 	color: #52abcb;
+  cursor: pointer;
 }
 .f1, .f2, .f3{
 	border-right: 1px solid #7a878f;
