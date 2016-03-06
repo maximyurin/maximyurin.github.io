@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .head-menu {
+    margin-top: 40px;
+    height: 28px;
+    width: 690px;
+    float: right;
+  }
+}
