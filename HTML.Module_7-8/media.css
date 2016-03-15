@@ -1,3 +1,36 @@
+@media (max-width: 620px) {
+footer {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url(img/foot480.png);
+}
+}
+@media (max-width: 740px) {
+.image {
+  width: 100%;
+  height: auto;
+}
+.iphone {
+  width: 225px;
+  margin-top: 160px;
+  float: right;
+  margin-right: -20px;
+  text-align: right;
+}
+.box1, .box2 {
+  display: inline-block;
+  width: 28.73%;
+  height: 198px;
+  float: left;
+  text-align: center;
+  margin-top: 63px;
+  margin-right: 26px;
+}
+.box3, .update, .read, .navigation2 {
+  display: none !important;
+}
+}
 @media (max-width: 800px) {
 .lorem {
   width: 49%;
@@ -27,6 +60,33 @@
 }
 }
 @media (max-width: 980px) {
+.update-text768, .starts-article768 {
+  display: block;
+}
+.update-text, .starts-article {
+  display: none;
+}
+.update-text768 {
+  font-size: 16px;
+  font-family: "OpenSans-Light";
+  color: rgb(69, 69, 69);
+	float: left;
+  margin-left: 17px;
+  margin-top: 3px;
+}
+.starts-article768 {
+ font-size: 16px;
+ font-family: "OpenSans-Light";
+ color: rgb(69, 69, 69);
+ text-align: left;
+ text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+ margin-left: 63px;
+ margin-right: 40px;
+ margin-top: 4px;
+ line-height: 24px;
+}
+}
+@media (max-width: 980px) {
 .box1, .box2, .box3 {
   display: inline-block;
   width: 28.73%;
@@ -44,6 +104,28 @@
  margin-top: 99px;
  float: left;
 }
+}
+@media (max-width: 930px) {
+  .headcont {
+    float: left;
+    margin-left: 20px;
+  }
+  .head-menu {
+    float: left;
+    width: 95%;
+    margin-top: 22px;
+    margin-right: 0px;
+    margin-left: -6px;
+  }
+  .slide {
+    margin-top: 119px;
+  }
+  .leftslide {
+    display: block;
+    float: left;
+    margin-top: 298px;
+    margin-left: -3px;
+  }
 }
 @media (max-width: 815px) {
 .box1, .box2, .box3 {
@@ -84,9 +166,8 @@ header {
 }
 .head-menu {
   float: left;
-  width: 100%;
-  margin-top: 22px;
-  padding-left: 20px;
+  margin-top: 28px;
+  padding-left: 26px;
 }
 .head-menu a {
   text-decoration: none;
@@ -149,8 +230,15 @@ header {
 }
 .navigation {
 display: block;
+width: 85px;
+height: 19px;
 margin-top: 21px;
-margin-left: 42px;
+margin-right: 120px;
+float: right;
+}
+.navigation img {
+  float: left;
+  padding: 0;
 }
 .cont1 {
   padding-left: 20px;
@@ -378,13 +466,11 @@ header {
 .headcont {
 width: 34%;
 display: block;
-padding-top: 61px;
+padding-top: 51px;
+float: right;
+margin-right: 154px;
 }
-.headcont a {
-display: block;
-width: 100%;
-margin-left: 134px;
-}
+
 .lorem, .lorem-head, .lorem-title, .lorem-article {
   display: none;
 }
@@ -404,14 +490,14 @@ margin-left: 134px;
 .leftslide {
   display: block;
   float: left;
-  margin-top: 186px;
+  margin-top: 191px;
   margin-left: -13px;
 }
 .rightslide {
   display: block;
   float: right;
-  margin-top: -198px;
-  margin-right: -11px;
+  margin-top: -196px;
+  margin-right: -13px;
 }
 .lorem-head480 {
   font-size: 36px;
@@ -439,21 +525,21 @@ margin-left: 134px;
 .slide {
   display: block;
   width: 100%;
-  height: 245px;
-  margin-top: 85px;
+  height: 246px;
+  margin-top: 90px;
   background: rgba(0, 0, 0, 0.2);
 }
 .iphone480 {
   display: block;
-  margin-top: -152px;
+  margin-top: -151px;
   float: right;
-  margin-right: 24px;
+  margin-right: 22px;
 }
 .navigation {
  display: block;
  float: left;
- margin-left: -20px;
- margin-top: -33px;
+ margin-left: 193px;
+ margin-top: -31px;
 }
 .about {
   background: linear-gradient(to bottom, #745083, #33253a);
@@ -476,6 +562,9 @@ margin-left: 134px;
   width: 95%;
   margin-left: -1px;
   margin-top: -41px;
+}
+.box3 {
+  display: block !important;
 }
 .box3 {
   display: block;
@@ -501,7 +590,7 @@ margin-left: 134px;
   height: 786px;
   width: 100%;
 }
-.starts-article, .starts-title, .update-text320 {
+.starts-article, .starts-title {
   display: block;
 }
 .starts-article320, .starts-article768, .starts-title768, .update-text {
@@ -533,6 +622,9 @@ margin-left: 134px;
   line-height: 24px;
 }
 .update {
+  display: block !important;
+}
+.update {
  display: block;
  width: 80%;
  margin-top: 60px;
@@ -549,6 +641,9 @@ margin-left: 134px;
  .updatebox3 {
  margin-top: 5px;
  }
+.read {
+  display: block !important;
+}
 .read {
  display: block;
  font-size: 18px;
@@ -577,6 +672,9 @@ margin-left: 134px;
 }
 .logos768 img {
    display: none;
+}
+.navigation2 {
+  display: block !important;
 }
 .navigation2 {
   margin-left: 194px;
@@ -666,7 +764,7 @@ header {
 .mobile-menu {
   display: block;
   margin-left: 30px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .menu-480-360 a {
   text-decoration: none;
@@ -768,7 +866,9 @@ header {
 .headcont {
 width: 34%;
 display: block;
-padding-top: 61px;
+float: left;
+padding-top: 50px;
+margin-left: 75px;
 }
 .slide {
   display: block;
@@ -778,26 +878,26 @@ padding-top: 61px;
   background: none;
   background-color: transparent;
 }
-.headcont a {
-display: block;
-width: 100%;
-margin-left: 55px;
-}
 .iphone480 {
   display: none;
 }
 .rightslide {
   display: block;
   float: right;
-  margin-top: -54px;
+  margin-top: -45px;
   margin-right: -12px;
+}
+.leftslide {
+  display: block;
+  float: left;
+  margin-top: 193px;
+  margin-left: -13px;
 }
 .lorem480 {
   display: block;
   width: 80%;
-
   margin-left: 57px;
-  padding-top: 72px;
+  padding-top: 78px;
 }
 .lorem-head480 {
   font-size: 36px;
@@ -817,13 +917,13 @@ margin-left: 55px;
 .navigation {
 display: block;
 float: left;
-margin-left: 61px;
-margin-top: 71px;
+margin-left: 115px;
+margin-top: 78px;
 }
 .about-article768, .starts-article, .starts-title, .update-head, .update-text768 {
   display: none;
 }
-.about-article320, .starts-article320, .starts-title768, .update-head320 {
+.update-text320, .about-article320, .starts-article320, .starts-title768, .update-head320 {
   display: block;
 }
 .about-article320 {
