@@ -2,12 +2,53 @@
   margin: 0;
   padding: 0;
 }
-.button {
+body {
+  background-color:  #aaaaaa;
+}
+.page-wrapper {
+  width:  70%;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  margin-top: 50px;
+  background-color: #eeeeee;
+}
+.head-title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 35px;
+  color: #745083;
+}
+.question1-title, .question2-title, .question3-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 10%;
+  font-family: Arial;
+  color: #745083;
+}
+.checkbox1, .checkbox2, .checkbox3 {
+  text-align: left;
+  margin-left: 15%;
+  margin-bottom: 10px;
   font-family: Arial;
   font-size: 20px;
   color: #745083;
 }
+input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.button {
+  font-family: Arial;
+  font-size: 17px;
+  color: #745083;
+  width: 25%;
+  height: 40px;
+  margin-left: 38%;
+  margin-top: 50px;
+}
 .button:hover {
   cursor: pointer;
-  font-weight: bold;
 }
