@@ -1,14 +1,15 @@
 var baseNumber = prompt('baseNumber');
 var exponentNumber = prompt('exponentNumber');
+var a = baseNumber;
+var b = exponentNumber;
 
-var exponentNumberResult = pow();
+var exponentNumberResult = pow(baseNumber, exponentNumber);
 
-function pow(a, b) {
-  var a = parseInt(baseNumber);
-  var b = parseInt(exponentNumber);
+function pow() {
+
   var result = a;
 
-  if (b === 0) {
+  if (b == 0) {
     result = 1;
 
     return result;
