@@ -181,6 +181,7 @@
     height: 340px;
     background: -webkit-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
     background: -moz-linear-gradient(top, rgba(93,65,105,1) 25%, rgba(82,58,93,1) 51%, rgba(68,49,77,1) 76%, rgba(51,38,58,1) 100%);
+    background: linear-gradient(to bottom,  #745082 0%,#33253a 100%);
     border-top: 1px solid #37293e;
     border-bottom: 1px solid #21333b;
 }
