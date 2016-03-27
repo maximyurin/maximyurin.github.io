@@ -7,19 +7,18 @@ function pow(a, b) {
   var b = parseInt(exponentNumber);
   var result = a;
   if (b === 0) {
-    result = a / a;
+    result = 1;
 
     return result;
   }
-  
+
   if (b < 0) {
 
-     for (var i = 1; i <= -b; i++) {
+     for (var i = 1; i < -b; i++) {
     result *= a;
-
     }
 
-    result = 1 / result;
+    return 1 / result;
     }
     else {
 
