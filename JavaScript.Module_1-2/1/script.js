@@ -1,7 +1,5 @@
 var baseNumber = prompt('baseNumber');
 var exponentNumber = prompt('exponentNumber');
-var a = baseNumber;
-var b = exponentNumber;
 
 var exponentNumberResult = pow(baseNumber, exponentNumber);
 
