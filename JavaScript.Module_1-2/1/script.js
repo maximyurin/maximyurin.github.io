@@ -5,7 +5,7 @@ var b = exponentNumber;
 
 var exponentNumberResult = pow(baseNumber, exponentNumber);
 
-function pow() {
+function pow(baseNumber, exponentNumber) {
 
   var result = a;
 
