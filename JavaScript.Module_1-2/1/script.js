@@ -11,14 +11,19 @@ function pow(a, b) {
 
     return result;
   }
-    else if (b < 0) {
-    result = 1 / Math.pow(a, b);
+  
+  if (b < 0) {
 
-    return 1 / result;
-  }
+     for (var i = 1; i <= -b; i++) {
+    result *= a;
+
+    }
+
+    result = 1 / result;
+    }
     else {
 
-     for(var j = 1; j < b; j++) {
+     for(var i = 1; i < b; i++) {
      result *= a;
     }
 
