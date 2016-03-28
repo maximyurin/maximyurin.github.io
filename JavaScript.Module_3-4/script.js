@@ -1,159 +1,50 @@
-var body = document.querySelector('BODY');
+var testPage = {
+    head: document.createElement('h1'),
+    tab2: document.createElement('br'),
+    submitButton: document.createElement('INPUT'),
+    fillCheckbox: function(number) {
+        for (var i = 1; i <= number; i++) {
+            var checkBox = document.createElement('INPUT');
+            checkBox.setAttribute('type', 'checkbox');
+            checkBox.setAttribute('id', 'answer' + counter);
+            checkBox.setAttribute('value', 'a');
+            var answerLabel = document.createElement('label');
+            answerLabel.setAttribute('for', 'answer' + counter);
+            answerLabel.appendChild(checkBox);
+            answerLabel.appendChild(document.createTextNode('Вариант ответа № ' + i));
+            var tab = document.createElement('br');
+            document.body.appendChild(answerLabel);
+            document.body.appendChild(tab);
+            counter++;
+        }
+    },
+    question: function(number) {
+        for(var i = 1; i <= number; i++) {
+            var subHeading = document.createElement('p');
+            subHeading.className = 'question';
+            subHeading.innerHTML = 'Вопрос № ' + i;
+            document.body.appendChild(subHeading);
+            testPage.fillCheckbox(3);
+        }
+    }
+};
 
-var wrapper = document.createElement('div');
-wrapper.classList.add('page-wrapper');
-body.appendChild(wrapper);
 
-var h1 = document.createElement('h1');
-h1.classList.add('head-title');
-h1.innerHTML = 'Тест по программированию';
-wrapper.appendChild(h1);
+testPage.head.className = 'head-title';
+testPage.head.innerHTML = 'Тесты по программированию';
+document.body.appendChild(testPage.head);
 
-var h1 = document.createElement('h1');
-h1.classList.add('question1-title');
-h1.innerHTML = '1.Вопрос №1';
-wrapper.appendChild(h1);
 
-var checkbox1 = document.createElement('label');
-checkbox1.classList.add('checkbox1');
-wrapper.appendChild(checkbox1);
+testPage.submitButton.className = 'button';
+document.body.appendChild(testPage.submitButton);
 
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox1.appendChild(checkboxInput);
+var counter = 1;
 
-var textAnswerOne = document.createTextNode('Вариант ответа №1');
-checkbox1.appendChild(textAnswerOne);
+testPage.question(3);
 
-var tab = document.createElement('div');
-checkbox1.appendChild(tab);
 
-var checkbox2 = document.createElement('label');
-checkbox2.classList.add('checkbox2');
-wrapper.appendChild(checkbox2);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox2.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №2');
-checkbox2.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox2.appendChild(tab);
-
-var checkbox3 = document.createElement('label');
-checkbox3.classList.add('checkbox3');
-wrapper.appendChild(checkbox3);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox3.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №3');
-checkbox3.appendChild(textAnswerOne);
-
-var h1 = document.createElement('h1');
-h1.classList.add('question2-title');
-h1.innerHTML = '2.Вопрос №2';
-wrapper.appendChild(h1);
-
-var checkbox1 = document.createElement('label');
-checkbox1.classList.add('checkbox1');
-wrapper.appendChild(checkbox1);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox1.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №1');
-checkbox1.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox1.appendChild(tab);
-
-var checkbox2 = document.createElement('label');
-checkbox2.classList.add('checkbox2');
-wrapper.appendChild(checkbox2);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox2.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №2');
-checkbox2.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox2.appendChild(tab);
-
-var checkbox3 = document.createElement('label');
-checkbox3.classList.add('checkbox3');
-wrapper.appendChild(checkbox3);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox3.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №3');
-checkbox3.appendChild(textAnswerOne);
-
-var h1 = document.createElement('h1');
-h1.classList.add('question3-title');
-h1.innerHTML = '3.Вопрос №3';
-wrapper.appendChild(h1);
-
-var checkbox1 = document.createElement('label');
-checkbox1.classList.add('checkbox1');
-wrapper.appendChild(checkbox1);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox1.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №1');
-checkbox1.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox1.appendChild(tab);
-
-var checkbox2 = document.createElement('label');
-checkbox2.classList.add('checkbox2');
-wrapper.appendChild(checkbox2);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox2.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №2');
-checkbox2.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox2.appendChild(tab);
-
-var checkbox3 = document.createElement('label');
-checkbox3.classList.add('checkbox3');
-wrapper.appendChild(checkbox3);
-
-var checkboxInput = document.createElement('input');
-checkboxInput.setAttribute('type', 'checkbox');
-checkboxInput.setAttribute('value', 'text');
-checkbox3.appendChild(checkboxInput);
-
-var textAnswerOne = document.createTextNode('Вариант ответа №3');
-checkbox3.appendChild(textAnswerOne);
-
-var tab = document.createElement('div');
-checkbox3.appendChild(tab);
-
-var button = document.createElement('button');
-button.classList.add('button');
-button.innerHTML = 'Проверить мои результаты';
-wrapper.appendChild(button);
+document.body.appendChild(testPage.tab2);
+testPage.submitButton.setAttribute('type', 'submit');
+testPage.submitButton.setAttribute('id', 'submitButton');
+testPage.submitButton.setAttribute('value', 'Проверить мои результаты');
+document.body.appendChild(testPage.submitButton);
