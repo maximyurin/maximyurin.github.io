@@ -43,6 +43,14 @@ function addZero(value, length) {
     return value;
 }
 
+var timeText = document.createElement('h3');
+timeText.innerHTML = 'TIMER';
+document.body.appendChild(timeText);
+
+var buttonBox = document.createElement('div');
+buttonBox.className = 'buttons';
+document.body.appendChild(buttonBox);
+
 var timeText = document.createElement('p');
 timeText.innerHTML = '00:00:00.000';
 document.body.appendChild(timeText);
@@ -50,10 +58,6 @@ document.body.appendChild(timeText);
 var timeResults = document.createElement('div');
 timeResults.className = 'timeRes';
 document.body.appendChild(timeResults);
-
-var buttonBox = document.createElement('div');
-buttonBox.className = 'buttons';
-document.body.appendChild(buttonBox);
 
 var startButton = document.createElement('button');
 startButton.className = 'btn btn-primary';
@@ -73,16 +77,22 @@ startButton.addEventListener('click', function() {
         startButton.className = 'btn btn-primary';
         startButton.style.transition = "all .6s";
         clearInterval(interval);
-        timeResults.innerHTML = timeText.textContent;
-    }
+      }
 });
+
+var splitCounter = 1;
 
 var splitButton = document.createElement('button');
 splitButton.className = 'btn btn-info';
 splitButton.innerHTML = 'Split';
 buttonBox.appendChild(splitButton);
 splitButton.addEventListener('click', function() {
-    timeResults.innerHTML = timeText.textContent;
+    if(timeText.textContent != '00:00:00.000') {
+        var split = document.createElement('li');
+        split.innerHTML = splitCounter + '. ' + '' + timeText.textContent;
+        timeResults.appendChild(split);
+        splitCounter++;
+    }
 });
 
 var resetButton = document.createElement('button');
