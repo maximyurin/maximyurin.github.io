@@ -51,9 +51,10 @@
     height: 6%;
 }
 .menu {
-    float: right;
-    padding-top: 74px;
-    width: 75%;
+    float: left;
+    padding-top: 12px;
+    margin-left: 34%;
+    width: 635px;
     height: 8%;
 }
 .menu__item {
@@ -67,7 +68,7 @@
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 23px 0 23px;
+    padding: 0 24px 0 24px;
     -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.75);
     text-shadow: 0 2px 10px rgba(0,0,0,0.75);
 }
@@ -88,19 +89,6 @@
 .slider--wrapper {
     height: 400px;
     z-index: 1;
-}
-.slider--wrapper::before {
-    content: url(img/arrow_left.png);
-    position: absolute;
-    top: 458px;
-    left: 0%;
-}
-.slider--wrapper::after {
-    content: url(img/arrow_right.png);
-    position: absolute;
-    top: 458px;
-    right: 0%;
-    z-index: 10;
 }
 .slider {
     width: 100%;
@@ -183,13 +171,14 @@
 }
 .text--wrapper {
     height: 340px;
+    padding-left: 1%;
 }
 .text__box {
     position: relative;
     display: inline-block;
-    width: 30%;
+    width: 31%;
     height: 62%;
-    padding: 7.5% 1% 0 1%;
+    padding: 7.6% 1% 0 1%;
 }
 .text__heading {
     font-family: "League Gothic Regular", sans-serif;
@@ -204,7 +193,7 @@
     font-size: 16px;
     color: white;
     font-weight: lighter;
-    }
+}
 .text__link {
     font-family: "League Gothic Regular", sans-serif;
     font-size: 18px;
@@ -266,11 +255,12 @@
     background: url("img/sprites.png") no-repeat 0 0;
     width: 49px;
     height: 50px;
-    top: 24px;
+    top: 18px;
     left: -26px;
 }
 .text__heading--starts-here {
-    margin-left: 16px;
+    margin-left: 8px;
+    margin-top: -3px;
 }
 .text__heading--black {
     color: #454545;
@@ -287,6 +277,8 @@
     width: 96%;
     height: 155px;
     padding: 10px 11px 0 14px;
+    margin-left: -8px;
+    margin-top: -3px;
 }
 .text__message::after {
     position: absolute;
@@ -310,34 +302,37 @@
 .recent-updates {
     float: left;
     width: 48%;
-    padding: 131px 0 0 7px;
+    padding: 127px 0 20px 20px;
 }
 .text__heading--light-black {
     color: #454545;
-    margin-left: 0;
+    margin-left: 13px;
+    margin-top: -1px;
 }
 .inform-block {
     width: 100%;
-    height: 60px;
+    height: 51px;
     padding-top: 10px;
 }
 .inform-block__heading {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #515151;
     font-weight: 800;
-}
+    }
 .inform-block__image-box {
     float: left;
     width: 49px;
     height: 50px;
+    margin-left: 7px;
 }
 .inform-block__text-box {
     float: left;
     padding-left: 10px;
     width: 82%;
-    height: 72px;
+    height: 67px;
     overflow: hidden;
+    margin-left: 14px;
 }
 .inform-block__image--one {
     background: url("img/sprites.png") no-repeat -48px 0;
@@ -373,13 +368,13 @@
 .logo-item {
     float: left;
     width: 9%;
-    margin: 3% 4% 2% 4%;
+    margin: 3% 0% 2% 5%;
 }
 .logo-item--rvca {
     margin: 6% 4% 4% 4%;
 }
 .logo-item--billabong {
-    margin-left: 1%;
+    margin-left: 10%;
 }
 .logo-item--vonzipper {
     margin-right: 0;
@@ -421,21 +416,24 @@
     color: #454545;
 }
 .text__box--down-text-first {
-    margin-left: 2%;
+    margin-left: 0%;
     position: relative;
     display: inline-block;
-    width: 28%;
+    width: 30%;
     height: 87%;
-    padding: 10% 1% 0 1%;
+    padding: 10% 0% 0 0%;
+    margin-top: -8px;
 }
 .text__box--down-text {
     vertical-align: top;
-    margin-left: 2%;
+    margin-left: 0%;
     position: relative;
     display: inline-block;
-    width: 28%;
+    width: 30%;
     height: 87%;
-    padding: 10% 1% 0 1%;
+    padding: 10% 0 0 0;
+    margin-top: -5px;
+    margin-right: 10px;
 }
 .text__cell--down-text-first {
     height: 132px;
@@ -458,9 +456,11 @@
     padding: 5.5% 0 0 0;
     width: 83%;
     height: 68px;
+    margin-left: -12px;
 }
 .menu__link--small {
     font-size: 20px;
+    padding: 0 20px 0 20px;
 }
 .menu__container {
     float: left;
@@ -474,7 +474,7 @@
 }
 .signature {
     float: right;
-    margin: 51px 5px 0 0;
+    margin: 51px 0 0 0;
 }
 #designed {
     font-family: "Open Sans", sans-serif;
@@ -488,6 +488,17 @@
     font-size: 12px;
     color: white;
 }
+
+
+
+@media screen and (max-width: 980px) {
+  .menu {
+    clear: left;
+    float: left;
+    width: 100%;
+    padding-top: 67px;
+    margin-left: 0;
+  }
 
 
 /** MEDIA 768 **/
@@ -504,6 +515,7 @@
     float: left;
     width: 100%;
     padding-top: 67px;
+    margin-left: 0;
 }
 .menu__item {
     margin-left: 1%;
@@ -748,9 +760,9 @@ nav {
     }
 .slider__image {
     transform: scale(.7);
-    width: 100%;
-    top: 12px;
-    left: -24px;
+    width: 165%;
+    top: -75px;
+    left: -105px;
 }
 .slider--wrapper::before {
     top: 319px;
@@ -764,9 +776,7 @@ nav {
 .slider__imagebox {
     height: 260px;
 }
-.slider__image {
-    max-width: 100%;
-}
+
 .nav-buttons {
     width: 100%;
     margin-top: -25px;
@@ -778,7 +788,7 @@ nav {
     position: relative;
     display: inline-block;
     height: 50%;
-    padding: 6% 1% 0 1%;
+    padding: 4% 1% 0 1%;
 }
 .text__cell {
     width: 88%;
@@ -843,7 +853,8 @@ nav {
 }
 .recent-updates {
     width: 96%;
-    padding: 41% 0 0 4%;
+    padding: 21% 0 0 4%;
+    margin-top: 10px;
 }
 .inform-block__text-box {
     padding-left: 15px;
@@ -960,19 +971,6 @@ nav {
 .slider__article {
     width: 100%;
 }
-.slider--wrapper::before {
-    content: url(img/arrow_left.png);
-    position: absolute;
-    top: 305px;
-    left: 0%;
-}
-.slider--wrapper::after {
-    content: url(img/arrow_right.png);
-    position: absolute;
-    top: 305px;
-    right: 0%;
-    z-index: 10;
-}
 .slider__heading {
     text-align: center;
     padding: 20px 9px 0 0;
@@ -984,9 +982,9 @@ nav {
 }
 .nav-buttons {
     float: left;
-    width: 230px;
-    height: 83px;
-    margin-left: 107px;
+    width: 90px;
+    height: 25px;
+    margin-left: 110px;
     margin-top: -20px;
     background: url("img/slider_nav.png") no-repeat;
 }
@@ -1002,12 +1000,14 @@ nav {
     padding: 0 0 0 0;
 }
 .text__box h1 {
-    font-family: "League Gothic Regular", sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: lighter;
-    margin-left: 65px;
+  display: block;
+  width: 150px;
+  font-family: "League Gothic Regular", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
 }
 .text__cell p {
     font-family: "Open Sans Light", sans-serif;
@@ -1018,11 +1018,14 @@ nav {
     font-weight: lighter;
 }
 .link__paragraph {
-    text-align: right;
-    margin-right: -12px;
-    margin-top: -2px;
+  display: block;
+  float: right;
+  width: 60px;
+  margin-top: -2px;
 }
-
+.text__cell {
+  width: 80%;
+}
 .text__cell--starts-here p {
   margin-left: -10px;
 }
@@ -1061,21 +1064,25 @@ nav {
   margin-top: -55px;
 }
 .inform-block__heading {
-    width: 180px;
-    height: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #515151;
-    overflow: hidden;
-    margin-top: 2px;
-
+  width: 160px;
+  height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #515151;
+  overflow: hidden;
+  margin-top: 2px;
+  margin-right: 0px;
 }
 .text__heading--starts-here {
     position: absolute;
     top: 20px;
     left: -40px;
 }
-
+.inform-block {
+    width: 90%;
+    height: 60px;
+    padding-top: 10px;
+}
 .text__message {
     height: 214px;
     width: 50%;
@@ -1088,7 +1095,9 @@ nav {
     margin-top: 50px;
 }
 .recent-updates {
-  margin-top: 33px;
+    width: 96%;
+    padding: 41% 0 0 4%;
+    margin-top: 30px;
 }
 .logo-area--content {
     height: 420px;
@@ -1125,6 +1134,8 @@ nav {
 }
 .link__paragraph {
     padding-right: 10px;
+    display: block;
+    width: 100px;
 }
 .signature__container {
   margin-top: 25px;
