@@ -99,7 +99,7 @@
 }
 .slider__article {
     float: left;
-    width: 66%;
+    width: 50%;
     height: 333px;
     padding: 67px 0 0 0;
     overflow: hidden;
@@ -496,10 +496,53 @@
     clear: left;
     float: left;
     width: 100%;
-    padding-top: 67px;
-    margin-left: 0;
+    padding-top: 78px;
+    margin-left: -22px;
   }
-
+  .logo {
+      padding: 52px 0 0 19px;
+  }
+  .menu__link {
+      padding: 0 0 0 34px;
+      margin-left: 6px;
+  }
+  .slider__heading {
+      font-family: "League Gothic Regular", sans-serif;
+      font-weight: lighter;
+      font-size: 48px;
+      color: #fff;
+      z-index: 1;
+      text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+      padding: 5px 0 0 0;
+  }
+  .slider__subheading {
+      font-family: "League Gothic Regular", sans-serif;
+      line-height: 36px;
+      text-transform: uppercase;
+      font-weight: lighter;
+      font-size: 24px;
+      color: #edbfff;
+      z-index: 1;
+      padding: 0 0 0 0;
+      margin-top: -9px;
+  }
+  .slider__text {
+      font-family: "Open Sans Light", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      margin-top: 3px;
+      word-wrap: break-word;
+  }
+  .slider__article {
+      float: left;
+      width: 60%;
+      height: 333px;
+      padding: 87px 0 0 42px;
+      overflow: hidden;
+      z-index: 1;
+  }
+}
 
 /** MEDIA 768 **/
 
@@ -508,14 +551,14 @@
     height: 798px;
 }
 .logo {
-    padding: 63px 0 0 15px;
+    padding: 52px 0 0 19px;
 }
 .menu {
     clear: left;
     float: left;
     width: 100%;
-    padding-top: 67px;
-    margin-left: 0;
+    padding-top: 78px;
+    margin-left: -28px;
 }
 .menu__item {
     margin-left: 1%;
@@ -524,11 +567,60 @@
     margin-bottom: 1%;
 }
 .menu__link {
-    padding: 7px 1px 0 1px;
+    padding: 0 0 0 34px;
     margin-left: 6px;
 }
 .slider {
     margin-top: 54px;
+}
+.slider__heading {
+    font-family: "League Gothic Regular", sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+    padding: 5px 0 0 0;
+}
+.slider__subheading {
+    font-family: "League Gothic Regular", sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #edbfff;
+    z-index: 1;
+    padding: 0 0 0 0;
+    margin-top: -6px;
+}
+.slider__text {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 3px;
+    word-wrap: break-word;
+}
+.slider__article {
+    float: left;
+    width: 60%;
+    height: 333px;
+    padding: 87px 0 0 42px;
+    overflow: hidden;
+    z-index: 1;
+}
+.slider__image {
+    position: absolute;
+    width: 105%;
+    top: -25px;
+    left: -60px;
+}
+.slider__imagebox {
+    position: relative;
+    float: right;
+    width: 34%;
+    height: 400px;
+    z-index: 1;
 }
 .text__box {
     position: relative;
@@ -764,6 +856,14 @@ nav {
     top: -75px;
     left: -105px;
 }
+.slider__article {
+    float: left;
+    width: 60%;
+    height: 333px;
+    padding: 67px 0 0 0;
+    overflow: hidden;
+    z-index: 1;
+}
 .slider--wrapper::before {
     top: 319px;
 }
@@ -803,7 +903,7 @@ nav {
 }
 .text__heading {
     font-family: "League Gothic Regular", sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     text-transform: uppercase;
     color: white;
     font-weight: lighter;
