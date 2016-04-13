@@ -89,6 +89,7 @@
 .slider--wrapper {
     height: 400px;
     z-index: 1;
+    position: relative;
 }
 .slider {
     width: 100%;
@@ -140,25 +141,24 @@
     margin-top: 3px;
     word-wrap: break-word;
 }
-.slider__imagebox {
-    position: relative;
-    float: right;
-    width: 34%;
-    height: 400px;
-    z-index: 1;
-}
 .slider__image {
     position: absolute;
-    width: 83%;
-    top: -15px;
-    left: -14px;
+    top: -17px;
+    left: 63.27%;
+}
+.slider__imagebox {
+  position: relative;
+}
+.slider__image480 {
+  display: none;
 }
 .nav-buttons {
-    float: right;
-    width: 230px;
-    height: 83px;
-    margin: 6% 0 0 0;
-    background: url("img/slider_nav.png") no-repeat;
+  position: absolute;
+  top: 492px;
+  left: 73.95%;
+  width: 85px;
+  height: 20px;
+  background: url("img/slider_nav.png") no-repeat;
 }
 .content {
     width: 100%;
@@ -609,19 +609,6 @@
     overflow: hidden;
     z-index: 1;
 }
-.slider__image {
-    position: absolute;
-    width: 105%;
-    top: -25px;
-    left: -60px;
-}
-.slider__imagebox {
-    position: relative;
-    float: right;
-    width: 34%;
-    height: 400px;
-    z-index: 1;
-}
 .text__box {
     position: relative;
     float: left;
@@ -835,6 +822,7 @@ nav {
 .slider--wrapper {
     height: 245px;
     z-index: 1;
+    position: relative;
 }
 .slider--cell {
     display: none;
@@ -851,10 +839,14 @@ nav {
     padding-left: 12%;
     }
 .slider__image {
-    transform: scale(.7);
-    width: 165%;
-    top: -75px;
-    left: -105px;
+  display: none;
+}
+.slider__image480 {
+  display: block;
+  position: absolute;
+  left: 53.5%;
+  top: -10px;
+
 }
 .slider__article {
     float: left;
@@ -878,9 +870,12 @@ nav {
 }
 
 .nav-buttons {
-    width: 100%;
+    width: 85px;
     margin-top: -25px;
     background-position: center;
+    position: absolute;
+    top: 119%;
+    left: 42%;
 }
 
 .text__box {
@@ -1065,8 +1060,14 @@ nav {
 .content {
     height: 596px;
 }
+.slider--wrapper {
+  position: relative;
+}
 .slider__imagebox {
     display: none;
+}
+.slider__image480 {
+  display: none;
 }
 .slider__article {
     width: 100%;
@@ -1081,12 +1082,12 @@ nav {
     padding: 0 0 0 22px
 }
 .nav-buttons {
-    float: left;
-    width: 90px;
-    height: 25px;
-    margin-left: 110px;
-    margin-top: -20px;
-    background: url("img/slider_nav.png") no-repeat;
+  position: absolute;
+  left: 38%;
+  top: 97%;
+  width: 90px;
+  height: 25px;
+  background: url("img/slider_nav.png") no-repeat;
 }
 .text--wrapper {
     height: 596px
