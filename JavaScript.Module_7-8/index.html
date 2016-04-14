@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script 7-8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="tabs">
+    <ul class="tabs-links">
+      <li class="active"><a class="tabs_a" href="#tab1">XHTML</a></li>
+      <li><a class="tabs_a" href="#tab2">HTML</a></li>
+      <li><a class="tabs_a" href="#tab3">XML</a></li>
+    </ul>
+  <div class="tabs-content">
+    <div id="tab1" class="tab tab-active">
+      <a class="wxhtml" href="https://ru.wikipedia.org/wiki/XHTML"><img class="xhtml" src="img/xhtml.png" alt="xhtml"/></a>
+      <p><b>XHTML</b> (англ. extensible hypertext markup language — расширяемый язык гипертекстовой разметки) — семейство языков разметки веб-страниц на основе XML, повторяющих и расширяющих возможности HTML 4. Спецификации XHTML 1.0 и XHTML 1.1 являются рекомендациями консорциума Всемирной паутины. Развитие XHTML остановлено; новые версии XHTML не выпускаются; рекомендуется использовать HTML.
+         Главное отличие XHTML от HTML заключается в обработке документа. Документы XHTML обрабатываются своим модулем (парсером) аналогично документам XML. В процессе этой обработки ошибки, допущенные разработчиками, не исправляются.
+         XHTML соответствует спецификации SGML, поскольку XML является её подмножеством.</p>
+    </div>
+    <div id="tab2" class="tab">
+      <a class="whtml" href="https://ru.wikipedia.org/wiki/HTML"><img class="html" src="img/html1.png" alt="html"/></a>
+      <p><b>HTNL</b> (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.
+       Язык HTML является приложением SGML (стандартного обобщённого языка разметки) и соответствует международному стандарту ISO 8879.
+       Язык XHTML является более строгим вариантом HTML, он следует всем ограничениям XML и, фактически, XHTML можно воспринимать как приложение языка XML к области разметки гипертекста.
+       </p>
+    </div>
+    <div id="tab3" class="tab">
+      <a class="wxml" href="https://ru.wikipedia.org/wiki/XML"><img class="xml" src="img/xml.png" alt="xml"/></a>
+      <p><b>XML</b> (англ. eXtensible Markup Language — расширяемый язык разметки; произносится [икc-эм-эль]). Рекомендован Консорциумом
+        Всемирной паутины (W3C). Спецификация XML описывает XML-документы и частично описывает поведение XML-процессоров (программ,
+        читающих XML-документы и обеспечивающих доступ к их содержимому). XML разрабатывался как язык с простым формальным синтаксисом,
+        удобный для создания и обработки документов программам и одновременно удобный для чтения и создания документов человеком,
+        с подчёркиванием нацеленности на использование в Интернете. Язык называется расширяемым, поскольку он не фиксирует разметку,
+        используемую в документах: разработчик волен создать разметку в соответствии с потребностями к конкретной области, будучи ограниченным
+        лишь синтаксическими правилами языка.</p>
+    </div></div></div>
+   <form action="">
+    <label for="name">First name</label><input id="name" type="text" title="Enter your first name" required><span class="hint">Enter your first name</span><br>
+    <label for="last-name">Last name</label><input id="last-name" type="text" title="Enter your last name" required><span class="hint">Enter your last name</span><br>
+    <label for="address">Address</label><input id="address" type="text" title="Enter your home or work address" required><span class="hint">Enter your home or work address</span><br>
+    <div class="form-button"><input type="submit" value="Show Help"></div>
+    </form>
+  <script src="script.js"></script>
+ </body>
+</html>
