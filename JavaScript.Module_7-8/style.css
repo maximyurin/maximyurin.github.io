@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('fonts/OpenSansLight/2209-webfont.eot');
+    src: url('fonts/OpenSansLight/2209-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/OpenSansLight/2209-webfont.woff2') format('woff2'),
+    url('fonts/OpenSansLight/2209-webfont.woff') format('woff'),
+    url('fonts/OpenSansLight/2209-webfont.ttf') format('truetype'),
+    url('fonts/OpenSansLight/2209-webfont.svg#open_sanslight') format('svg');
+}
+body {
+    background: url(img/back.jpg) no-repeat center top;
+}
+.tabs {
+    width: 30%;
+    margin: 150px auto;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.tabs_a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px 6px 0 0;
+    background: rgba(197, 118, 47, 0.9);
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Light', sans-serif;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.85);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.85);
+}
+.tabs_a:hover {
+    opacity: .9;
+    transition: all linear 0.4s;
+}
+.tabs-content {
+    float: left;
+    width: 98%;
+    height: 360px;
+    padding: 2%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    background: rgba(38, 94, 144, 0.9);
+}
+.tab {
+    display: none;
+}
+.tab-active {
+    display: block;
+}
+.xhtml {
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.html {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
+.xml {
+  width: 35%;
+  height: auto;
+  float: right;
+  margin-left: 15px;
+}
+.wxhtml, .whtml, .wxml {
+  display: block;
+}
+.wxhtml:hover, .whtml:hover, .wxml:hover {
+    opacity: .6;
+    transition: all linear 0.4s;
+}
+img:hover {
+  margin-top: -5px;
+}
+p {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Open Sans Light', sans-serif;
+    color: #00FFFF;
+    font-size: 16px;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+}
+li.active a, li.active a:hover {
+    background: rgba(38, 94, 144, 0.9);
+    color: white;
+}
+.tabs:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+form {
+    clear: both;
+    width: 350px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+    font-family: 'Open Sans Light', sans-serif;
+    color: black;
+    font-size: 20px;
+    width: 180px;
+    background: rgba(38, 94, 144, 0.4);
+    box-sizing: border-box;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 4px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Open Sans Light', sans-serif;
+    width: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.9);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.9);
+}
+.form-button input {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 10px;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+    width: 120px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.hint {
+    float: left;
+    margin-left: 310px;
+    margin-top: -35px;
+    width: 300px;
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px;
+    display: none;
+    text-transform: uppercase;
+    -moz-text-shadow: 0 2px 10px rgba(0,0,0,0.9);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.9);
+}
+input:focus {
+    background: rgba(38, 94, 144, 0.4);
+    transition: all .6s;
+    border-left: 4px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
