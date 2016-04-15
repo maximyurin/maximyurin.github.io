@@ -474,8 +474,6 @@ a img {
     color: white;
 }
 
-
-
 @media screen and (max-width: 980px) {
   .menu {
     clear: left;
@@ -664,7 +662,7 @@ a img {
 .menu--footer {
     float: left;
     padding: 4% 0 0 0;
-    width: 850px;
+    width: 700px;
     height: 42px;
 }
 .menu__container {
@@ -706,13 +704,13 @@ a img {
 .menu {
     display: none;
 }
-nav {
+.nav {
     padding-top: 100px;
 }
 .menu--vertical {
     position: relative;
     display: block;
-    width: 245px;
+    width: 235px;
     margin: 26px auto;
     padding-top: 10px;
     z-index: 10;
@@ -724,6 +722,7 @@ nav {
     box-sizing: border-box;
 }
 .menu__link--vertical {
+    width: 233px;
     display: block;
     padding: 6px 0 6px 0;
     text-align: center;
