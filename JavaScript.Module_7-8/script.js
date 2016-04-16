@@ -5,16 +5,20 @@ $(document).ready(function() {
         $(this).parent('li').addClass('active').siblings().removeClass('active');
         e.preventDefault();
     });
+
     $('input').hover(function() {
         $(this).next().fadeIn(700).show();
-        window.setTimeout(function() {
-            $('input').next().hide(500);
-        }, 3000);
+        $('input').on('mouseout', function() {
+        $('input').next().hide();
+        });
     });
+
     $('.form-button').on('click', function() {
         $('input').next().fadeIn(500).show();
-        window.setTimeout(function() {
-            $('input').next().hide();
-        }, 3000);
+        $('input').on('mouseout', function() {
+        $('input').next().hide();
+        e.preventDefault();
+        });
     });
+
 });
