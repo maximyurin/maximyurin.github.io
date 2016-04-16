@@ -146,7 +146,7 @@ a img {
   height: 20px;
   background: url("img/slider_nav.png") no-repeat;
 }
-.content {
+.content_linear {
     width: 100%;
     height: 340px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#745082', endColorstr='#33253a');
@@ -690,7 +690,7 @@ a img {
 .bg-container {
     height: 562px;
 }
-.content {
+.content_linear {
     height: 596px;
 }
 .logo {
@@ -1041,7 +1041,7 @@ a img {
     width: 100%;
     height: 516px;
 }
-.content {
+.content_linear {
     height: 596px;
 }
 .slider--wrapper {
