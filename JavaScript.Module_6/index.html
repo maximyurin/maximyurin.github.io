@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <script src="script.js"></script>
-  </body>
+    <p class="timetext" id="output">0:00:00:00</p>
+    <div class="buttons" id="controls">
+      <button class="btn-primary" id="startPause" onclick="startPause()">Start</button>
+      <button class="btn-info" onclick="reset()">Reset</button>
+    </div>
+    </body>
 </html>
