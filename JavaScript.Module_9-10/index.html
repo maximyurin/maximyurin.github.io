@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script 9-10</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="prettyCheckable.css">
+    <link rel="stylesheet" href="jquery.selectbox.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.selectbox-0.6.1.js"></script>
+    <script src="js/prettyCheckable.js"></script>
+  <body>
+    <div class="header">
+    <div class="mixers">
+      <p class="mixer">What is your favorite DJ mixer?</p>
+        <form class="checkbox-form" action="">
+            <input type="checkbox" class="checkbox" value="yes" data-label="Pioneer DJM-800" checked/>
+            <input type="checkbox" class="checkbox" value="yes" data-label="Pioneer DJM-950"/>
+            <input type="checkbox" class="checkbox" value="yes" data-label="Pioneer DJM-1000"/>
+        </form></div>
+        <ul class="menu">
+      <li class="menu-item"><a class="menu-link" href="">Mixers</a>
+          <ul class="sub-menu">
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-S9</a></li>
+              <li class="sub-menu-item djm"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer NEXUS SERIES</a>
+                  <ul class="djm-menu">
+                      <li class="djm-item"><a class="djm-link" href="">Pioneer DJM-900NXS</a></li>
+                      <li class="djm-item"><a class="djm-link" href="">Pioneer DJM-900NXS2</a></li>
+                      <li class="djm-item"><a class="djm-link" href="">Pioneer DJM-1000NXS</a></li>
+                      <li class="djm-item"><a class="djm-link" href="">Pioneer DJM-1000NXS2</a></li>
+                  </ul>
+              </li>
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-900SRT</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-250</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-400</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-450</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link sub-menu-link-pioneer" href="">Pioneer DJM-600</a></li>
+          </ul>
+      </li>
+      <li class="menu-item"><a class="menu-link" href="">Headphones</a>
+          <ul class="sub-menu">
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HDJ-2000MK2</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HDJ-2000</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HRM7</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HRM6</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HRM5</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HDJ-C70</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer HDJ-1000</a></li>
+          </ul>
+      </li>
+      <li class="menu-item"><a class="menu-link" href="">Controllers</a>
+          <ul class="sub-menu">
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SX2</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SR</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SB2</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SB1</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SP1</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-WEGO3</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-RZ</a></li>
+          </ul>
+      </li>
+      <li class="menu-item"><a class="menu-link" href="">Software</a>
+          <ul class="sub-menu">
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SX2</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SR</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SB2</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SB1</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-SP1</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-WEGO3</a></li>
+              <li class="sub-menu-item"><a class="sub-menu-link" href="">Pioneer DDJ-RZ</a></li>
+          </ul>
+      </li>
+      </ul></div>
+  <div class="owl-carousel owl-theme">
+    <div><img src="img/1.jpg" alt=""></div>
+    <div><img src="img/2.jpg" alt=""></div>
+    <div><img src="img/3.jpg" alt=""></div>
+    <div><img src="img/4.jpg" alt=""></div>
+    <div><img src="img/5.jpg" alt=""></div>
+    <div><img src="img/6.jpg" alt=""></div>
+  </div>
+<div class="owl-controls">
+    <div class="owl-dots">
+        <div class="owl-dot active"><span></span></div>
+        <div class="owl-dot"><span></span></div>
+        <div class="owl-dot"><span></span></div>
+    </div>
+</div>
+<div class="wrapper">
+    <form action="">
+        <select class="jquery-selectbox" title="Pioneer Players" name="Choose Player" id="1">
+            <option value="Pioneer CDJ-900NXS">Pioneer CDJ-900NXS</option>
+            <option value="Pioneer CDJ-2000NXS2">Pioneer CDJ-2000NXS2</option>
+            <option value="Pioneer CDJ-350">Pioneer CDJ-350</option>
+            <option value="Pioneer XDJ-1000">Pioneer XDJ-1000</option>
+            <option value="Pioneer CDJ-850">Pioneer CDJ-850</option>
+        </select>
+        <select class="jquery-selectbox" title="Pioneer Mixers" name="Choose Mixer" id="2">
+            <option value="Pioneer DJM-2000NXS">Pioneer DJM-2000NXS</option>
+            <option value="Pioneer DJM-2000NXS2">Pioneer DJM-2000NXS2</option>
+            <option value="Pioneer DJM-900NXS">Pioneer DJM-900NXS</option>
+            <option value="Pioneer DJM-900NXS2">Pioneer DJM-900NXS2</option>
+            <option value="Pioneer DJM-900SRT">Pioneer DJM-900SRT</option>
+            <option value="Pioneer DJM-850">Pioneer DJM-850</option>
+        </select>
+        <select class="jquery-selectbox" title="Pioneer Controllers" name="Choose Controller" id="3">
+            <option value="Pioneer DDJ-RZ">Pioneer DDJ-RZ</option>
+            <option value="Pioneer DDJ-RX">Pioneer DDJ-RX</option>
+            <option value="Pioneer DDJ-SZ">Pioneer DDJ-SZ</option>
+            <option value="Pioneer DDJ-SX2">Pioneer DDJ-SX2</option>
+            <option value="Pioneer DDJ-SB2">Pioneer DDJ-SB2</option>
+            <option value="Pioneer DDJ-WEGO3">Pioneer DDJ-WEGO3</option>
+        </select>
+    </form>
+</div>
+<form class="css-checkbox-form" action="">
+  <input class="css-checkbox"  type="checkbox" id="800">
+  <label class="css-label" for="800">Pioneer CDJ-800</label>
+  <input class="css-checkbox" type="checkbox" id="850" checked>
+  <label class="css-label" for="850">Pioneer CDJ-850</label>
+  <input class="css-checkbox" type="checkbox" id="1000" disabled>
+  <label class="css-label" for="1000">Pioneer CDJ-1000</label>
+</form>
+<script src="js/script.js"></script>
+ </body>
+</html>
