@@ -34,12 +34,10 @@ function increment()
         if (secs < 10) {
         secs = "0" + secs;
         }
-        if (mins > 10) {
-          mins = "0" + mins;
+        if (mins < 10) {
+        mins = "0" + mins;
         }
-        if (hours < 10) {
-        mins = "0" + hours;
-        }
+
         document.getElementById("output").innerHTML = hours + ":" + mins + ":" + secs + ":" + tenths + "0";
         increment();
 
