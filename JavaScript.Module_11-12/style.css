@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('fonts/OpenSansLight/2209-webfont.eot');
+    src: url('fonts/OpenSansLight/2209-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/OpenSansLight/2209-webfont.woff2') format('woff2'),
+    url('fonts/OpenSansLight/2209-webfont.woff') format('woff'),
+    url('fonts/OpenSansLight/2209-webfont.ttf') format('truetype'),
+    url('fonts/OpenSansLight/2209-webfont.svg#open_sanslight') format('svg');
+}
+
+body {
+  background: url(img/bg.jpg);
+}
+.header {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans Light', sans-serif;
+  -moz-text-shadow: 0 2px 10px rgba(255,255,255,0.75);
+  text-shadow: 0 2px 10px rgba(255,255,255,0.75);
+}
+.container {
+  width: 965px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.carousel-hider {
+    width: 800px;
+    overflow: hidden;
+    float: left;
+}
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    position: relative;
+}
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+.first {
+  margin-left: -40px;
+}
+.carousel-element img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.carousel-element p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans Light', sans-serif;
+  -moz-text-shadow: 0 2px 10px rgba(255,255,255,0.75);
+  text-shadow: 0 2px 10px rgba(255,255,255,0.75);
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 275px;
+}
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+.carousel-arrow-right {
+    margin-left: 25px;
+}
