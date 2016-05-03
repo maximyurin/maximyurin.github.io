@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Java Script 9-10</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="owl.carousel.min.css" />
-    <link rel="stylesheet" href="prettyCheckable.css">
-    <link rel="stylesheet" href="jquery.selectbox.css"/>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.selectbox-0.6.1.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
     <script src="js/prettyCheckable.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prettyCheckable.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
   <body>
     <div class="header">
     <div class="mixers">
@@ -74,12 +74,12 @@
       </li>
       </ul></div>
   <div class="owl-carousel owl-theme">
-    <div><img src="img/1.jpg" alt=""></div>
-    <div><img src="img/2.jpg" alt=""></div>
-    <div><img src="img/3.jpg" alt=""></div>
-    <div><img src="img/4.jpg" alt=""></div>
-    <div><img src="img/5.jpg" alt=""></div>
-    <div><img src="img/6.jpg" alt=""></div>
+    <div><img src="img/1.jpg" alt="img1"></div>
+    <div><img src="img/2.jpg" alt="img2"></div>
+    <div><img src="img/3.jpg" alt="img3"></div>
+    <div><img src="img/4.jpg" alt="img4"></div>
+    <div><img src="img/5.jpg" alt="img5"></div>
+    <div><img src="img/6.jpg" alt="img6"></div>
   </div>
 <div class="owl-controls">
     <div class="owl-dots">
@@ -88,32 +88,13 @@
         <div class="owl-dot"><span></span></div>
     </div>
 </div>
-<div class="wrapper">
-    <form action="">
-        <select class="jquery-selectbox" title="Pioneer Players" name="Choose Player" id="1">
-            <option value="Pioneer CDJ-900NXS">Pioneer CDJ-900NXS</option>
-            <option value="Pioneer CDJ-2000NXS2">Pioneer CDJ-2000NXS2</option>
-            <option value="Pioneer CDJ-350">Pioneer CDJ-350</option>
-            <option value="Pioneer XDJ-1000">Pioneer XDJ-1000</option>
-            <option value="Pioneer CDJ-850">Pioneer CDJ-850</option>
-        </select>
-        <select class="jquery-selectbox" title="Pioneer Mixers" name="Choose Mixer" id="2">
-            <option value="Pioneer DJM-2000NXS">Pioneer DJM-2000NXS</option>
-            <option value="Pioneer DJM-2000NXS2">Pioneer DJM-2000NXS2</option>
-            <option value="Pioneer DJM-900NXS">Pioneer DJM-900NXS</option>
-            <option value="Pioneer DJM-900NXS2">Pioneer DJM-900NXS2</option>
-            <option value="Pioneer DJM-900SRT">Pioneer DJM-900SRT</option>
-            <option value="Pioneer DJM-850">Pioneer DJM-850</option>
-        </select>
-        <select class="jquery-selectbox" title="Pioneer Controllers" name="Choose Controller" id="3">
-            <option value="Pioneer DDJ-RZ">Pioneer DDJ-RZ</option>
-            <option value="Pioneer DDJ-RX">Pioneer DDJ-RX</option>
-            <option value="Pioneer DDJ-SZ">Pioneer DDJ-SZ</option>
-            <option value="Pioneer DDJ-SX2">Pioneer DDJ-SX2</option>
-            <option value="Pioneer DDJ-SB2">Pioneer DDJ-SB2</option>
-            <option value="Pioneer DDJ-WEGO3">Pioneer DDJ-WEGO3</option>
-        </select>
-    </form>
+<div class="jqselect">
+<select name="testSelect" id="">
+    <option value="">Pioneer CDJ-900NXS</option>
+    <option value="">Pioneer CDJ-2000NXS2</option>
+    <option value="">Pioneer CDJ-350</option>
+    <option value="">Pioneer XDJ-1000</option>
+</select>
 </div>
 <div class="css-checkbox-form" action="">
   <input type="checkbox" id="800" name="cc" />
