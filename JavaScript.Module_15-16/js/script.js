@@ -26,17 +26,11 @@ Student.prototype = new Human();
 function Worker() {
 	this.job = 'farmer';
 	this.salary = 1000;
-	this.work = function() {
-		alert('Это метод work!wake up!');
-	};
 };
 
 function Student() {
 	this.university = 'DNTU';
 	this.grants = 500;
-	this.hobby = function() {
-		alert('Это метод hobby: whatch TV');
-	};
 };
 
 var worker1 = new Worker();
