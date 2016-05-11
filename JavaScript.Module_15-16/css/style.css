@@ -1,1 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+  margin-top: 200px;
+}
+.logo img {
+	width: 30%;
+	height: auto;
+}
+#hplogo {
+  display: block;
+  margin: 0 auto;
+}
 
