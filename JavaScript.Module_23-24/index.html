@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript.Module_23-24</title>
+  <script data-main="js/app.js" src="js/require.js"></script>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="container"></div>
+
+  <script type="text/html" id = "wrapper-template">
+    <div class="wrapper">
+      <h1 class="header">ToDo list</h1>
+      <div class="controlls">
+        <input type="text" class="controlls__item-value" placeholder="What will you do?">
+        <button class="controlls__item-add">Add</button>
+      </div>
+      <ul class="todo-list"></ul>
+      <span>click on item to edit</span>
+    </div>
+  </script>
+
+  <script type="text/html" id = "list-template">
+    <% for (var i = 0; i<data.length; i++) { %>
+      <li class="todo-list__item"><input class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete">x</span></li>
+    <%}; %>
+  </script>
+
+</body>
+</html>
